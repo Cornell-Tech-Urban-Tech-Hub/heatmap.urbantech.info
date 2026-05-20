@@ -1,9 +1,15 @@
 *.swp
+.env
 package-lock.json
 __pycache__
 .pytest_cache
 .venv
 *.egg-info
+node_modules
+dist
+
+# Override root gitignore's lib/ exclusion for Svelte components
+!src/lib/
 
 # CDK asset staging directory
 .cdk.staging
